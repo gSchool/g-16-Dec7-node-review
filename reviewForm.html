@@ -2,18 +2,20 @@
 <html>
 	<head>
 		<title>Title of the document</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 		<script src="warmup.js"></script>
 	</head>
 
 	<body>
-		<form method="POST" action="">
+		<form id="myForm" method="POST" action="">
 		  First name:
-		  <input type="text" name="firstname">
+		  <input id="firstName" type="text" name="firstname">
 
 		  Last name:
-		  <input type="text" name="lastname">
+		  <input id="lastName" type="text" name="lastname">
 		  <input type="submit">
 		</form> 
+		<div id="dataHolder"></div>
 	</body>
 
 </html> 
